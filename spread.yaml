@@ -34,6 +34,9 @@ backends:
       - ubuntu-25.04:
           username: spread
           workers: 1
+      - ubuntu-25.10:
+          username: spread
+          workers: 1
 
 suites:
   tests/:

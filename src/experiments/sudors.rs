@@ -33,6 +33,7 @@ impl<'a> SudoRsExperiment<'a> {
             "24.04".to_string(),
             "24.10".to_string(),
             "25.04".to_string(),
+            "25.10".to_string(),
         ]
     }
 

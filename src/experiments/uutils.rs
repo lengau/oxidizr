@@ -204,7 +204,7 @@ mod tests {
             "coreutils",
             system,
             "rust-coreutils",
-            &["24.04", "24.10", "25.04"],
+            &["24.04", "24.10", "25.04", "25.10"],
             Some(PathBuf::from("/usr/bin/coreutils")),
             PathBuf::from("/usr/lib/cargo/bin/coreutils"),
         )
@@ -226,7 +226,7 @@ mod tests {
             "findutils",
             system,
             "rust-findutils",
-            &["24.04", "24.10", "25.04"],
+            &["24.04", "24.10", "25.04", "25.10"],
             None,
             PathBuf::from("/usr/lib/cargo/bin/findutils"),
         )
